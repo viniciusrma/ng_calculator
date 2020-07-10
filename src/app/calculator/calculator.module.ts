@@ -3,9 +3,14 @@ import { CommonModule } from '@angular/common';
 import { CalculatorComponent } from './components/calculator.component';
 
 @NgModule({
-  declarations: [CalculatorComponent],
   imports: [
     CommonModule
+  ],
+  declarations: [
+    CalculatorComponent
+  ],
+  exports:[
+    CalculatorComponent
   ]
 })
 
